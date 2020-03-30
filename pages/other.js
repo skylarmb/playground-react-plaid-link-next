@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import Plaid from '../src/Plaid';
 import Link from 'next/link';
+import Plaid from '../src/Plaid';
 
 const Home = () => (
   <div className="container">
@@ -8,9 +8,9 @@ const Home = () => (
       <title>Create Next App</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    <h2>main page</h2>
+    <h2>some other page</h2>
 
-    <Link href="/other">go to other page</Link>
+    <Link href="/">go to main page</Link>
 
     <main>
       <Plaid />

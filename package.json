@@ -5,11 +5,17 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "start-prod": "next build && next export && http-server out"
   },
   "dependencies": {
     "next": "9.3.3",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-plaid-link": "^2.0.3"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "http-server": "^0.12.1"
   }
 }
